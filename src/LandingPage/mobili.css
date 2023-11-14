@@ -1,0 +1,46 @@
+@media (min-width: 300px) and (max-width: 425px){
+    .secao-banner{
+        height: 300px;
+    }
+    .secao-texto h1{
+        font-size: 35px;
+    }
+    .primeiro-p{
+        font-size: 14px;
+        width: 200px;
+    }
+    .segundo-p{
+        font-size: 12px;
+        width: 300px;
+    }
+}
+@media (min-width: 425px) and (max-width: 768px){
+    .secao-banner{
+        height: 350px;
+    }
+    .primeiro-p{
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+    }
+    .segundo-p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .secao-banner{
+        height: 400px;
+    }
+    .secao-texto h1{
+        width: 100%;
+    }
+    .primeiro-p{
+        width: 100%;
+    }
+    .segundo-p{
+        width: 100%;
+    }
+}
