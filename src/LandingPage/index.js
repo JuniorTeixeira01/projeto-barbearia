@@ -22,8 +22,8 @@ function LandingPage()  {
     
                 <button  onClick={alteraPagina}
                 className={modoPagina ? 'modo-escuro' : 'modo-claro'}>
-                  <img src={modoPagina ? 'assets/sun.png' : 'assets/moon.png'}
-                  alt='Imagem noite' />Dark
+                  <img src={modoPagina ? 'assets/moon.png' : 'assets/sun.png'}
+                  alt='Imagem noite' />{modoPagina ? 'Dark' :'Clear'}
                 </button>
               
         </header>
@@ -50,3 +50,6 @@ function LandingPage()  {
 )};
 
 export default LandingPage;
+
+
+
